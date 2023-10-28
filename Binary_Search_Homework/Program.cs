@@ -15,7 +15,7 @@ namespace Binary_Search_Homework
             int key = 10;
 
             // int idx = BinarySearchHomework.TernarySearch(arr1, key);
-            int idx = BinarySearchHomework.TernarySearch(arr1, key, 0, arr1.Length);
+             int idx = BinarySearchHomework.TernarySearch(arr1, key, 0, arr1.Length);
 
             Console.WriteLine("Found {0} at index {1} using Ternary Search", key, idx);
 
